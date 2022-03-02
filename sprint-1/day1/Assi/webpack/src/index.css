@@ -1,0 +1,52 @@
+*{
+    background: rgb(229, 229, 235);
+    
+}
+.hello {
+
+   background: url('./Todo-Logo.png');
+  }
+
+  
+  #icon{
+      width: 100px;
+      height: 60px;
+      margin-left: 150px;
+      margin-top: 50px;
+  }
+
+.redtext{
+    color:red;
+}
+label{
+    font-size: 40px;
+   
+}
+#desc{
+    width:400px;
+    height: 150px;
+}
+#show{
+    width:50%;
+    height: 300px;
+    overflow: scroll;
+    border: 1px solid gray;
+    padding: 1%;
+}
+#show > div{
+    width:100%;
+    min-height: 100px;
+    border:1px solid gray;
+    border-radius: 5px;
+
+}
+button{
+    width:100px;
+    height:30px;
+    background: burlywood;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+}
+/* LOADER */
+/* css-loader */
