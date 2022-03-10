@@ -9,11 +9,6 @@ export function Counter(props) {
             setCounter(counter + value);
             console.log(counter)
         } 
-      
-        
-           
-        
-       
     }
 //  console.log(counter)
  
