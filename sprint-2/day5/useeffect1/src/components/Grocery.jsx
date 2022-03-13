@@ -41,16 +41,16 @@ export const Grocery = () => {
   // deleteData()
 
 
-  const deletePerson = async (id) => {
-    await fetch(`http://localhost:3001/grocery/${id}`, {
-      method: "DELETE",
-      headers: {
-        "Content-type": "application/json"
-      }
-    })
+  // const deletePerson = async (id) => {
+  //   await fetch(`http://localhost:3001/grocery/${id}`, {
+  //     method: "DELETE",
+  //     headers: {
+  //       "Content-type": "application/json"
+  //     }
+  //   })
 
-    await setGroceries(groceries.filter(groceries => groceries.id !== id))
-  }
+  //   await setGroceries(groceries.filter(groceries => groceries.id !== id))
+  // }
   
 
 

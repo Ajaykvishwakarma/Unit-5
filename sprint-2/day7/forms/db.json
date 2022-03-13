@@ -1,0 +1,49 @@
+{
+  "users": [
+    {
+      "name": "ajaykumarvishwakarma",
+      "age": "54",
+      "address": "hariyaw",
+      "department": "developer",
+      "salary": "2556",
+      "isMarried": "",
+      "id": 1
+    },
+    {
+      "name": "ajaykumarvishwakarma",
+      "age": "54",
+      "address": "hariyaw",
+      "department": "hr",
+      "salary": "2556",
+      "isMarried": true,
+      "id": 2
+    },
+    {
+      "name": "",
+      "age": "",
+      "address": "",
+      "department": "",
+      "salary": "",
+      "isMarried": true,
+      "id": 3
+    },
+    {
+      "name": "",
+      "age": "",
+      "address": "",
+      "department": "",
+      "salary": "",
+      "isMarried": true,
+      "id": 4
+    },
+    {
+      "name": "",
+      "age": "",
+      "address": "",
+      "department": "",
+      "salary": "",
+      "isMarried": "",
+      "id": 5
+    }
+  ]
+}

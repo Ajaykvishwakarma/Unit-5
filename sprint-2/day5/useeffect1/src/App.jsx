@@ -8,8 +8,8 @@ function App() {
     <div className="App">
       <div id = "container">
       <h1>GROCERY LIST</h1>
-       <Grocery/>
-       {/* <Todo/> */}
+       {/* <Grocery/> */}
+       <Todo/>
        </div>
     </div>
   );

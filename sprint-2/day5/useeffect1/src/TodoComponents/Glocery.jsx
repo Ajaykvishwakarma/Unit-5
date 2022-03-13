@@ -21,13 +21,11 @@ function Todo() {
     // }
 // console.log(data[0].status)
   
-    const handleDelete = (id, status) => {
-        // const deletedTodo = data.filter((item) => item.id !== id);
-        axios.delete(`http://localhost:3001/grocery`).then(res => {
-            setGroceries(res.data)
-    })
-        // setData(deletedTodo)
-        //console.log(status)
+   
+const handleDelete = (id, status) => {
+    const deletedTodo = data.filter((item) => item.id !== id);
+    setGroceries(deletedTodo)
+    //console.log(status)
 }
   
 

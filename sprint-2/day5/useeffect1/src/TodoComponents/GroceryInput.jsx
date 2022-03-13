@@ -12,6 +12,12 @@ function TodoInput({onClick}) {
 
     // const [ title, setTitle ] = React.useState("");
 
+
+    // axios.delete('https://reqres.in/api/posts/1')
+    // .then(() => element.innerHTML = 'Delete successful');
+
+
+
     useEffect(() => {
         getData()
        },[page])
@@ -22,20 +28,18 @@ function TodoInput({onClick}) {
          })
        }
 
+    //  const handleDelete = () => {
+    //   console.log("jay")
+    //      axios.delete(`http://localhost:3001/grocery?${id}`).then(() => {
+    //       getData();
+     
+    //     });
+    //     // setGroceries.splice(id,1)
+    //    }
        
     return (
     <div>
-        {/* <input placeholder = "Add Items.. " value = {text} onChange = {(e) => setText(e.target.value)}/>
-        <button id = "main_btn" onClick = {() => onClick(text)}> Add To List </button> */}
-
-        {/* <button onClick= {() => {
-           setPage(page - 1);
-         }}>Prev</button>
- 
-         <button onClick= {() => {
-           setPage(page + 1);
-         }}>Next</button> */}
-
+        
         <div>
          <input type = "text" onChange={e => setText(e.target.value)}/>
  
@@ -53,8 +57,13 @@ function TodoInput({onClick}) {
  
              // axios.post("http://localhost:3001/grocery", {title:text, purchased : false})
          }}> save Grocery </button>
-            {groceries.map((e) => (
-             <div key = {e.id}>{e.title}</div>
+            {groceries.map((e,index) => (
+             <div id="showDiv">
+               <div key = {e.id}>{e.title}</div>
+               <div><button onClick={() => {
+               
+                 }}>Delete</button></div>
+             </div>
             ))}  
  
  
@@ -71,6 +80,14 @@ function TodoInput({onClick}) {
     )
 }
 
+
+
+// function deleteAll(index)
+//         {
+//             arr.splice(index,1)
+//             localStorage.setItem("TaskList", JSON.stringify(arr));
+//             toggle(arr)
+//         }
 
 
 

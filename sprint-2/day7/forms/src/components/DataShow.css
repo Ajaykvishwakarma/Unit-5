@@ -1,0 +1,30 @@
+
+#Showdata{
+
+
+    margin-top:50px;
+    margin-bottom:50px;
+}
+
+#tabledata{
+  
+    margin:auto;
+    border-spacing: 0px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    background: rgb(216, 216, 255);
+    padding:10px;
+}
+
+td{
+    border:1px solid rgb(146, 218, 146);
+    margin: 0px 0px 0px 0px ;
+    padding:10px;
+    text-align: center;
+}
+th{
+    border:1px solid rgb(146, 218, 146);
+   gap:0px;
+    padding:5px;
+    text-align: center;
+}
+
